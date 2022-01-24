@@ -1,10 +1,10 @@
 module.exports = {
-  "stories": [
-    "../src/**/*.stories.@(mdx|js|jsx|ts|tsx)"
+  stories: [
+    '../src/**/*.stories.@(mdx|js|jsx|ts|tsx)'
   ],
-  "addons": [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
     {
       name: '@storybook/addon-postcss',
       options: {
@@ -16,7 +16,6 @@ module.exports = {
   ],
   staticDirs: ['../public'],
   core: {
-    builder: 'webpack5'
-    // builder: 'storybook-builder-vite'
+    builder: 'storybook-builder-vite'
   }
 }
