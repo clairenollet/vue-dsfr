@@ -17,8 +17,6 @@ module.exports = {
   staticDirs: ['../public'],
   core: {
     builder: 'webpack5'
+    // builder: 'storybook-builder-vite'
   }
-  // "core": {
-  //   "builder": "storybook-builder-vite"
-  // }
 }
