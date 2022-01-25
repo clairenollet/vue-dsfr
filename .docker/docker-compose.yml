@@ -6,8 +6,5 @@ services:
     build:
       context: ../
       dockerfile: .docker/Dockerfile
-      target: dev
-    volumes:
-      - ../:/app # dossier_hote:dossier_conteneur
     ports:
-      - 6006:6006 # port_hote:port_conteneur
+      - 8080:80 # port_hote:port_conteneur
