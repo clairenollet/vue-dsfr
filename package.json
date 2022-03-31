@@ -1,5 +1,5 @@
 {
-  "name": "@laruiss/vue-dsfr",
+  "name": "@gouvminint/vue-dsfr",
   "version": "1.0.0-beta.35",
   "files": [
     "dist",
@@ -34,7 +34,7 @@
     }
   },
   "publishConfig": {
-    "@laruiss:registry": "https://registry.npmjs.com",
+    "@gouvminint:registry": "https://registry.npmjs.com",
     "access": "public"
   },
   "scripts": {
@@ -70,7 +70,7 @@
     "vue-tsc": "vue-tsc --declaration --emitDeclarationOnly"
   },
   "dependencies": {
-    "@gouvfr/dsfr": "^1.3.1",
+    "@gouvfr/dsfr": "~1.3.1",
     "focus-trap": "^6.7.3",
     "focus-trap-vue": "^3.2.1",
     "oh-vue-icons": "^1.0.0-rc2",
@@ -183,7 +183,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/laruiss/vue-dsfr.git"
+    "url": "https://github.com/dnum-mi/vue-dsfr.git"
   },
   "release": {
     "branches": [
