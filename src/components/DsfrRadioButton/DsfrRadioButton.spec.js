@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { render } from '@testing-library/vue'
 
 import RadioButton from './DsfrRadioButton.vue'
@@ -14,7 +14,7 @@ describe('DsfrRadioButton', () => {
     const { getByText, getByDisplayValue } = render(RadioButton, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -44,7 +44,7 @@ describe('DsfrRadioButton', () => {
     const { getByText, getByDisplayValue, container } = render(RadioButton, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

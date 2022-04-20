@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon, addIcons } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon, addIcons } from 'oh-vue-icons'
 import { fireEvent, render } from '@testing-library/vue'
 
 import DsfrAlert from './DsfrAlert.vue'
@@ -17,7 +17,7 @@ describe('DsfrAlert', () => {
     const { getByText } = render(DsfrAlert, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -47,7 +47,7 @@ describe('DsfrAlert', () => {
     const { emitted, getByTitle } = render(DsfrAlert, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

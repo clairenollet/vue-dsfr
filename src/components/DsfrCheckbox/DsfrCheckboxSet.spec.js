@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { fireEvent, render } from '@testing-library/vue'
 
 import DsfrCheckboxSet from './DsfrCheckboxSet.vue'
@@ -41,7 +41,7 @@ describe('DsfrCheckboxSet', () => {
     const { getByText, getAllByTestId } = render(DsfrCheckboxSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -90,7 +90,7 @@ describe('DsfrCheckboxSet', () => {
     const { getByText, getByTestId } = render(DsfrCheckboxSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -122,7 +122,7 @@ describe('DsfrCheckboxSet', () => {
     const { container } = render(DsfrCheckboxSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

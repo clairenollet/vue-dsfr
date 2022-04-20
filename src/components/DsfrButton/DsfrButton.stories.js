@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon, addIcons } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon, addIcons } from 'oh-vue-icons'
 
 import { RiCheckboxCircleLine, RiSearchLine } from 'oh-vue-icons/icons/ri/index.js'
 
@@ -163,7 +163,7 @@ BoutonTertiaire.args = {
 export const SuiteDeBoutons = (args) => ({
   components: {
     DsfrButton,
-    VIcon,
+    DsfrIcon,
   },
   data () {
     return {

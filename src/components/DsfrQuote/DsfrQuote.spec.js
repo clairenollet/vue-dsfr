@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { render } from '@testing-library/vue'
 
 import DsfrQuote from './DsfrQuote.vue'
@@ -25,7 +25,7 @@ describe('DsfrQuote', () => {
     const { container, getByText } = render(DsfrQuote, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

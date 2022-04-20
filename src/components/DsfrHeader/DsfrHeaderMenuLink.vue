@@ -1,8 +1,13 @@
 <script>
 import { defineComponent } from 'vue'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 export default defineComponent({
   name: 'DsfrHeaderMenuLink',
+
+  components: {
+    DsfrIcon,
+  },
 
   props: {
     /* @deprecated Utiliser `to` ou `href` à la place */
@@ -77,7 +82,7 @@ export default defineComponent({
     v-bind="linkData"
     @click.stop="onClick"
   >
-    <VIcon
+    <DsfrIcon
       v-if="(icon || iconAttrs) && !iconRight"
       :name="icon"
       class="fr-mr-1w"
@@ -86,7 +91,7 @@ export default defineComponent({
 
     {{ label }}
 
-    <VIcon
+    <DsfrIcon
       v-if="(icon || iconAttrs) && iconRight"
       :name="icon"
       class="fr-ml-1w"

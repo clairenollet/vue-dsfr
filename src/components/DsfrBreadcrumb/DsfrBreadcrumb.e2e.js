@@ -1,6 +1,6 @@
 import { mount } from '@cypress/vue'
 import DsfrBreadcrumb from './DsfrBreadcrumb.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 import '../../main.css'
 
@@ -24,7 +24,7 @@ describe('DsfrBreadCrumb', () => {
     mount(DsfrBreadcrumb, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

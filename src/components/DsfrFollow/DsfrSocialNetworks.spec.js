@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { render } from '@testing-library/vue'
 
 import DsfrSocialNetworks from './DsfrSocialNetworks.vue'
@@ -21,7 +21,7 @@ describe('DsfrSocialNetworks', () => {
     const { container } = render(DsfrSocialNetworks, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

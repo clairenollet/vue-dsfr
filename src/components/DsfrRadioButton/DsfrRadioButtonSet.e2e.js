@@ -1,6 +1,6 @@
 import { mount } from '@cypress/vue'
 import DsfrRadioButtonSet from './DsfrRadioButtonSet.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 import '../../main.css'
 
@@ -9,7 +9,7 @@ describe('DsfrRadioButtonSet', () => {
     mount(DsfrRadioButtonSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

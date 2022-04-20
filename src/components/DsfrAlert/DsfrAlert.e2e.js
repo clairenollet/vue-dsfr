@@ -1,6 +1,6 @@
 import { mount } from '@cypress/vue'
 import DsfrAlert from './DsfrAlert.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 import '../../main.css'
 
@@ -14,7 +14,7 @@ describe('DsfrAlert', () => {
     mount(DsfrAlert, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

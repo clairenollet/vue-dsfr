@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { render } from '@testing-library/vue'
 // import '@gouvfr/dsfr/dist/core/core.module.js'
 
@@ -13,7 +13,7 @@ describe('DsfrButton', () => {
     const { getByText } = render(DsfrButton, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       slots: {
@@ -33,7 +33,7 @@ describe('DsfrButton', () => {
     const { getByText } = render(DsfrButton, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

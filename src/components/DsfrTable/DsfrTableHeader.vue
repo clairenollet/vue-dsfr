@@ -1,8 +1,13 @@
 <script>
 import { defineComponent } from 'vue'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 export default defineComponent({
   name: 'DsfrTableHeader',
+
+  components: {
+    DsfrIcon,
+  },
 
   props: {
     header: {
@@ -26,7 +31,7 @@ export default defineComponent({
     v-bind="headerAttrs"
   >
     {{ header }}
-    <VIcon
+    <DsfrIcon
       v-if="icon && icon.name"
       v-bind="icon"
     />

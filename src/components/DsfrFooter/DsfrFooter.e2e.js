@@ -1,7 +1,7 @@
 import { mount } from '@cypress/vue'
 import DsfrFooter from './DsfrFooter.vue'
 import DsfrFooterLinkList from './DsfrFooterLinkList.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import '../../main.css'
 
 const data = {
@@ -91,7 +91,7 @@ const allLinks = [
 ]
 
 const DsfrFooterWrapper = {
-  components: { VIcon, DsfrFooter, DsfrFooterLinkList },
+  components: { DsfrIcon, DsfrFooter, DsfrFooterLinkList },
 
   data () {
     return data
@@ -130,7 +130,7 @@ const DsfrFooterWrapper = {
           Un moteur de recherche qui respecte votre vie privée
           <a href="http://www.duckduckgo.com" class="fr-external-link">
             ici
-            <VIcon name="ri-external-link-line" />
+            <DsfrIcon name="ri-external-link-line" />
           </a>
         </p>
       </template>
@@ -143,7 +143,7 @@ describe('DsfrFooter', () => {
     mount(DsfrFooterWrapper, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
           DsfrFooter,
           DsfrFooterLinkList,
         },

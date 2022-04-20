@@ -10,7 +10,7 @@ describe('DsfrInput', () => {
 
     // When
     const { getByText } = render(DsfrInput, {
-      stubs: ['v-icon'],
+      stubs: ['dsfr-icon'],
       props: {
         labelVisible,
         label,
@@ -29,7 +29,7 @@ describe('DsfrInput', () => {
 
     // When
     const { getByText } = render(DsfrInput, {
-      stubs: ['v-icon'],
+      stubs: ['dsfr-icon'],
       props: {
         labelVisible,
         label,

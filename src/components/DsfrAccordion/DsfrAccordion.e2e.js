@@ -1,7 +1,7 @@
 import { mount } from '@cypress/vue'
 import DsfrAccordion from './DsfrAccordion.vue'
 import DsfrAccordionsGroup from './DsfrAccordionsGroup.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 import '../../main.css'
 
@@ -16,7 +16,7 @@ const AccordionWrapper = {
   components: {
     DsfrAccordion,
     DsfrAccordionsGroup,
-    VIcon,
+    DsfrIcon,
   },
 
   data () {
@@ -69,7 +69,7 @@ describe('DsfrAccordion', () => {
     mount(DsfrAccordion, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

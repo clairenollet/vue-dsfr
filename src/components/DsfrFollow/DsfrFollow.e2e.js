@@ -1,6 +1,6 @@
 import { mount } from '@cypress/vue'
 import DsfrFollow from './DsfrFollow.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import '../../main.css'
 
 describe('DsfrFollow', () => {
@@ -30,7 +30,7 @@ describe('DsfrFollow', () => {
     mount(DsfrFollow, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import DsfrFileUpload from './DsfrFileUpload.vue'
 import { render } from '@testing-library/vue'
 
@@ -9,7 +9,7 @@ describe('DsfrFileUpload', () => {
     const { container, getByLabelText, getByText } = render(DsfrFileUpload, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -31,7 +31,7 @@ describe('DsfrFileUpload', () => {
     const { container, getByText } = render(DsfrFileUpload, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -56,7 +56,7 @@ describe('DsfrFileUpload', () => {
     const { container, getByText } = render(DsfrFileUpload, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

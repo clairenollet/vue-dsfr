@@ -3,7 +3,7 @@ import { render } from '@testing-library/vue'
 import DsfrTable from './DsfrTable.vue'
 import DsfrTag from '../DsfrTag/DsfrTag.vue'
 
-const VIcon = { props: ['name'], template: '<i :class="name"></i>' }
+const DsfrIcon = { props: ['name'], template: '<i :class="name"></i>' }
 
 describe('DsfrTable', () => {
   it('should render simple table', () => {
@@ -53,7 +53,7 @@ describe('DsfrTable', () => {
     const { container } = render(DsfrTable, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
           DsfrTag,
         },
       },
@@ -84,7 +84,7 @@ describe('DsfrTable', () => {
     const { container } = render(DsfrTable, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
           DsfrTag,
         },
       },

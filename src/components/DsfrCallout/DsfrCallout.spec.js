@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { fireEvent, render } from '@testing-library/vue'
 
 import { spy } from '@/../tests/unit/test-utils.js'
@@ -15,7 +15,7 @@ describe('DsfrCallout', () => {
     const { getByText } = render(DsfrCallout, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -41,7 +41,7 @@ describe('DsfrCallout', () => {
     const { container, getByText } = render(DsfrCallout, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

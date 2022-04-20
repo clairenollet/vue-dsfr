@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon, addIcons } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon, addIcons } from 'oh-vue-icons'
 import { render } from '@testing-library/vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -85,7 +85,7 @@ describe('DsfrFooter', () => {
       global: {
         plugins: [router],
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -118,7 +118,7 @@ describe('DsfrFooter', () => {
       global: {
         plugins: [router],
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

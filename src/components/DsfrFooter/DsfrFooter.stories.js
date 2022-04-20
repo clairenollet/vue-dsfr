@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon, addIcons } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon, addIcons } from 'oh-vue-icons'
 
 import { RiExternalLinkLine } from 'oh-vue-icons/icons/ri/index.js'
 
@@ -82,7 +82,7 @@ export const PiedDePageSimple = (args) => ({
   components: {
     DsfrFooter,
     DsfrFooterLinkList,
-    VIcon,
+    DsfrIcon,
   },
   data () {
     return args
@@ -107,7 +107,7 @@ export const PiedDePageSimple = (args) => ({
         Un moteur de recherche qui respecte votre vie privée
         <a href="http://www.duckduckgo.com" class="fr-external-link">
           ici
-          <VIcon name="ri-external-link-line" />
+          <DsfrIcon name="ri-external-link-line" />
         </a>
       </p>
     </template>
@@ -173,7 +173,7 @@ PiedDePageSimple.args = {
 }
 
 export const PiedDePage = (args) => ({
-  components: { DsfrFooter, DsfrFooterLinkList, VIcon },
+  components: { DsfrFooter, DsfrFooterLinkList, DsfrIcon },
   data () {
     return args
   },
@@ -209,7 +209,7 @@ export const PiedDePage = (args) => ({
         Un moteur de recherche qui respecte votre vie privée
         <a href="http://www.duckduckgo.com" class="fr-external-link">
           ici
-          <VIcon name="ri-external-link-line" />
+          <DsfrIcon name="ri-external-link-line" />
         </a>
       </p>
     </template>

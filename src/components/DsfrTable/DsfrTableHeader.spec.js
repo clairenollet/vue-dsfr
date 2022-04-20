@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { fireEvent, render } from '@testing-library/vue'
 
 import DsfrTableHeader from './DsfrTableHeader.vue'
@@ -12,7 +12,7 @@ describe('DsfrTableHeader', () => {
     const { container } = render(DsfrTableHeader, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -32,7 +32,7 @@ describe('DsfrTableHeader', () => {
     const { container } = render(DsfrTableHeader, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

@@ -1,6 +1,6 @@
 // import { mount, app } from '@cypress/vue'
 import { mount } from '@cypress/vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 // import { createRouter, createWebHistory } from 'vue-router'
 import DsfrCard from './DsfrCard.vue'
 import '../../main.css'
@@ -33,7 +33,7 @@ describe('DsfrCard', () => {
       global: {
         components: {
           RouterLink,
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

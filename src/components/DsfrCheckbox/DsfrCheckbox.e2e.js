@@ -1,7 +1,7 @@
 import { mount } from '@cypress/vue'
 import DsfrCheckbox from './DsfrCheckbox.vue'
 import DsfrCheckboxSet from './DsfrCheckboxSet.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 import '../../main.css'
 
@@ -16,7 +16,7 @@ describe('DsfrCheckbox', () => {
     mount(DsfrCheckbox, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -58,7 +58,7 @@ describe('DsfrCheckbox', () => {
     mount(DsfrCheckbox, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -122,7 +122,7 @@ describe('DsfrCheckboxSet', () => {
     mount(DsfrCheckboxSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
           DsfrCheckbox,
         },
       },
@@ -217,7 +217,7 @@ describe('DsfrCheckboxSet', () => {
     mount(DsfrCheckboxSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
           DsfrCheckbox,
         },
       },
@@ -313,7 +313,7 @@ describe('DsfrCheckboxSet', () => {
     mount(DsfrCheckboxSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
           DsfrCheckbox,
         },
       },
@@ -409,7 +409,7 @@ describe('DsfrCheckboxSet', () => {
     mount(DsfrCheckboxSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
           DsfrCheckbox,
         },
       },

@@ -1,5 +1,6 @@
 <script>
 import { defineComponent } from 'vue'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 import DsfrLogo from '../DsfrLogo/DsfrLogo.vue'
 import DsfrFooterPartners from '../DsfrFooter/DsfrFooterPartners.vue'
@@ -10,6 +11,7 @@ export default defineComponent({
   components: {
     DsfrFooterPartners,
     DsfrLogo,
+    DsfrIcon,
   },
 
   props: {
@@ -203,7 +205,7 @@ export default defineComponent({
               target="_blank"
             >
               licence etalab-2.0
-              <VIcon name="ri-external-link-line" />
+              <DsfrIcon name="ri-external-link-line" />
             </a>
           </p>
         </div>

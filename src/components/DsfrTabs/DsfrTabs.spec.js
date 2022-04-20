@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { fireEvent } from '@testing-library/dom'
 import { render } from '@testing-library/vue'
 
@@ -27,7 +27,7 @@ describe('DsfrTabs', () => {
     const { getByText, getByTestId, getAllByRole, getByRole } = render(DsfrTabs, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -98,7 +98,7 @@ describe('DsfrTabs', () => {
     const { container, getAllByRole, getByRole } = render(DsfrTabs, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

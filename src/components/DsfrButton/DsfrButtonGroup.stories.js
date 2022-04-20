@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon, addIcons } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon, addIcons } from 'oh-vue-icons'
 
 import { RiCheckboxCircleLine } from 'oh-vue-icons/icons/ri/index.js'
 
@@ -43,7 +43,7 @@ export default {
 export const GroupeDeBoutons = (args) => ({
   components: {
     DsfrButtonGroup,
-    VIcon,
+    DsfrIcon,
   },
   data () {
     return {

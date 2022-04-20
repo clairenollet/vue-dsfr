@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon, addIcons } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon, addIcons } from 'oh-vue-icons'
 
 import { RiInformationLine } from 'oh-vue-icons/icons/ri/index.js'
 
@@ -39,7 +39,7 @@ export default {
 export const MiseEnAvantSimple = (args) => ({
   components: {
     DsfrCallout,
-    VIcon,
+    DsfrIcon,
   },
 
   data () {
@@ -76,7 +76,7 @@ MiseEnAvantSimple.args = {
 export const MiseEnAvant = (args) => ({
   components: {
     DsfrCallout,
-    VIcon,
+    DsfrIcon,
   },
 
   data () {

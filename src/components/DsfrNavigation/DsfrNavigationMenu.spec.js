@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import DsfrNavigationMenu from './DsfrNavigationMenu.vue'
 
-const VIcon = { props: ['name'], template: '<i :class="name"></i>' }
+const DsfrIcon = { props: ['name'], template: '<i :class="name"></i>' }
 
 const router = createRouter({
   history: createWebHistory('/'),
@@ -45,7 +45,7 @@ describe('DsfrNavigationMenu', () => {
       global: {
         plugins: [router],
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

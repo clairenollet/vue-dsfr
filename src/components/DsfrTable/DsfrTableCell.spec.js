@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { fireEvent, render } from '@testing-library/vue'
 
 import DsfrTableCell from './DsfrTableCell.vue'
@@ -15,7 +15,7 @@ describe('DsfrTableCell', () => {
     const { container } = render(DsfrTableCell, {
       global: {
         component: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -43,7 +43,7 @@ describe('DsfrTableCell', () => {
       global: {
         components: {
           DsfrTag,
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -70,7 +70,7 @@ describe('DsfrTableCell', () => {
       global: {
         components: {
           DsfrTag,
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -93,7 +93,7 @@ describe('DsfrTableCell', () => {
     const { container } = render(DsfrTableCell, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

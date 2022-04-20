@@ -1,6 +1,6 @@
 import { mount } from '@cypress/vue'
 import DsfrButton from './DsfrButton.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import '../../main.css'
 
 describe('DsfrButton', () => {
@@ -9,7 +9,7 @@ describe('DsfrButton', () => {
     mount(DsfrButton, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       slots: {

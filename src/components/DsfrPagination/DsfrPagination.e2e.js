@@ -1,6 +1,6 @@
 import { mount } from '@cypress/vue'
 import DsfrPagination from './DsfrPagination.vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 
 import '../../main.css'
 
@@ -30,7 +30,7 @@ describe('DsfrPagination', () => {
     mount(PaginationWrapper, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
     })

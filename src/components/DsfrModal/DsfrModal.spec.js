@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { render } from '@testing-library/vue'
 import { mount } from '@vue/test-utils'
 
@@ -14,7 +14,7 @@ describe('DsfrModal', () => {
     const wrapper = mount(DsfrModal, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -42,7 +42,7 @@ describe('DsfrModal', () => {
     const { getByText, getByRole, getByLabelText } = render(DsfrModal, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -71,7 +71,7 @@ describe('DsfrModal', () => {
     const wrapper = mount(DsfrModal, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -98,7 +98,7 @@ describe('DsfrModal', () => {
     const { getByText, getByRole } = render(DsfrModal, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

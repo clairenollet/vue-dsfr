@@ -1,5 +1,5 @@
 import { fireEvent, render } from '@testing-library/vue'
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 // import '@gouvfr/dsfr/dist/core/core.module.js'
 
 import DsfrAccordion from './DsfrAccordion.vue'
@@ -12,7 +12,7 @@ describe('DsfrAccordion', () => {
     const { getByText } = render(DsfrAccordion, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

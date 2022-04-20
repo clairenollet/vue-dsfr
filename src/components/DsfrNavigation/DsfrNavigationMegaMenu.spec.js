@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { render } from '@testing-library/vue'
 import { createRouter, createWebHistory } from 'vue-router'
 // import '@gouvfr/dsfr/dist/core/core.module.js'
@@ -104,7 +104,7 @@ describe('DsfrNavigationMegaMenu', () => {
       global: {
         plugins: [router],
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

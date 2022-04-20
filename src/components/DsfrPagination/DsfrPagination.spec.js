@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { render, fireEvent } from '@testing-library/vue'
 import { ref } from 'vue'
 
@@ -20,7 +20,7 @@ describe('DsfrPagination', () => {
     const { getByTitle, emitted } = render(Pagination, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {

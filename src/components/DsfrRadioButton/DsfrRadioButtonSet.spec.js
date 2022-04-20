@@ -1,4 +1,4 @@
-import { OhVueIcon as VIcon } from 'oh-vue-icons'
+import { OhVueIcon as DsfrIcon } from 'oh-vue-icons'
 import { fireEvent, render } from '@testing-library/vue'
 
 import RadioButtonSet from './DsfrRadioButtonSet.vue'
@@ -13,7 +13,7 @@ describe('DsfrRadioButtonSet', () => {
     const { getByText, getByRole } = render(RadioButtonSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
@@ -63,7 +63,7 @@ describe('DsfrRadioButtonSet', () => {
     const { getByText, getByDisplayValue } = render(RadioButtonSet, {
       global: {
         components: {
-          VIcon,
+          DsfrIcon,
         },
       },
       props: {
