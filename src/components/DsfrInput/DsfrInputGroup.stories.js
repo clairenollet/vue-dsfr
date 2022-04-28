@@ -2,7 +2,7 @@ import DsfrInput from './DsfrInput.vue'
 import DsfrInputGroup from './DsfrInputGroup.vue'
 
 export default {
-  component: DsfrInput,
+  component: DsfrInputGroup,
   title: 'Composants/Champ de saisie/Champ avec message associé - DsfrInputGroup',
   argTypes: {
     dark: {
@@ -53,14 +53,6 @@ export default {
       control: 'text',
       description: 'Message de validation',
     },
-    isValid: {
-      control: 'boolean',
-      description: 'Signale si le champ est en état validé (`true`) ou non (`false`, par défaut)',
-    },
-    isInvalid: {
-      control: 'boolean',
-      description: 'Signale si le champ est en état d’erreur (`true`) ou non (`false`, par défaut)',
-    },
   },
 }
 
@@ -79,14 +71,12 @@ export const ChampEnErreur = (args) => ({
   template: `
     <DsfrInputGroup
       :error-message="errorMessage"
-      :model-value="modelValue"
       :type="type"
       :label="label"
       :hint="hint"
       :label-visible="labelVisible"
       :placeholder="placeholder"
-      :is-invalid="isInvalid"
-      />
+    />
   `,
   mounted () {
     document.body.parentElement.setAttribute('data-fr-theme', this.dark ? 'dark' : 'light')
@@ -137,5 +127,4 @@ ChampValide.args = {
   modelValue: '',
   validMessage: 'Message de validation',
   errorMessage: '',
-  isValid: true,
 }
